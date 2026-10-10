@@ -1,5 +1,10 @@
 # F1 2020 RL Driver
 
+<a href="media/lap.mp4"><img src="media/preview.gif" alt="The agent driving the Red Bull Ring with its lookahead overlay" width="100%"></a>
+
+*One full lap (1:11.4) by the trained agent, with the overlay showing its lookahead points and the track edges. Click for the full lap.*
+
+
 A Soft Actor-Critic (SAC) agent that learns to drive **F1 2020** (Time Trial, Red Bull Ring) from the game's UDP telemetry, controlling the car through a virtual Xbox pad. It is bootstrapped from laps recorded on a racing wheel, then improves by driving on its own.
 
 It also includes a **live overlay** that draws what the agent "sees" on top of the TV-pod camera, for recording videos.
