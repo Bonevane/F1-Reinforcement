@@ -1,0 +1,25 @@
+# Training outputs (huge / machine-specific)
+checkpoints/
+*_buffer.pkl
+*.pkl
+runs/
+laps.csv
+*.tmp.npy
+
+# Personal recordings (share separately if you want)
+demos/
+
+# Videos
+*.mp4
+*.mkv
+*.mov
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

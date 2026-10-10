@@ -1,0 +1,9 @@
+gymnasium
+stable-baselines3[extra]
+numpy
+f1-2020-telemetry
+vgamepad          # virtual Xbox pad (Windows; installs the ViGEmBus driver)
+pygame            # overlay
+# optional control backends
+# pyvjoy pydirectinput    (vJoy virtual wheel)
+# pynput                  (keyboard fallback)
